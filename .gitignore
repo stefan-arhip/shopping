@@ -1,0 +1,8 @@
+backup/
+lib/
+TEMP/
+*.exe
+*.dbg
+*.dll
+*.sqlite
+*.old
