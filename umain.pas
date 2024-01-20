@@ -249,7 +249,7 @@ begin
     sq.SQL.Add(
       '(''2019-04-11 15:30:00'',''Display in About tab of current user, executable version and compiler version''),');
     sq.SQL.Add(
-      '(''2024-01-20 20:59:26'',''Add feature to create database at startup if "shopping.sqlite" is missing'');');
+      '(''2024-01-20 20:59:26'',''Create database at startup if is missing'');');
     sq.ExecSQL;
     tr.Commit;
     sq.Close;
